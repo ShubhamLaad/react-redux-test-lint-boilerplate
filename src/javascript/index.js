@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Bluebird from 'bluebird';
-import { AppComponent } from "./javascipt/components/app.component";
+import AppComponent from "./components/app.component";
 
 window.Promise = Bluebird.Promise;
 

@@ -4,17 +4,15 @@
 import Path from 'path';
 import webpack from 'webpack';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
-import CopyWebpackPlugin from 'copy-webpack-plugin';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import CleanWebpackPlugin from "clean-webpack-plugin";
 
 const RootPath = Path.join(__dirname);
-const BUILD = Path.join(__dirname, 'build');
 const SOURCE = Path.join(__dirname, 'src');
 
 module.exports = {
   entry: {
-    index: Path.join(RootPath, 'src/assets/javascript/index.js'),
+    index: Path.join(RootPath, 'src/javascript/index.js'),
   },
   output: {
     path: Path.join(RootPath, '/build/'),
@@ -28,11 +26,7 @@ module.exports = {
       filename: 'index.html',
       chunks: ['index']
     }),
-    new ExtractTextPlugin({
-      filename: 'styles/style.css',
-      allChunks: true,
-      disable: true,
-    }),
+    new ExtractTextPlugin('styles/style.min.css'),
     new CleanWebpackPlugin(['build']),
   ],
   resolve: {
