@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Bluebird from 'bluebird';
-import AppComponent from "./components/app.component";
+import AppRoutes from './routes/app-routes';
 import "../static/styles/base.sass";
 
 window.Promise = Bluebird.Promise;
 
 ReactDOM.render(
-  <AppComponent />,
+  <AppRoutes />,
   document.getElementById('root'),
 );
