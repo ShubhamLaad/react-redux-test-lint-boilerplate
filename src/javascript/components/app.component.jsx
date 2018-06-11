@@ -5,6 +5,9 @@ class AppComponent extends Component {
     return (
       <div>
         <h1>Welcome to my starter app</h1>
+        <ul>
+          <li>it is li</li>
+        </ul>
       </div>
     )
   }
