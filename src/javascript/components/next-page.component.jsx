@@ -1,16 +1,12 @@
-import React, { Component } from "react";
+import React from 'react';
 
-class NextPageComponent extends Component {
-  render() {
-    return (
-      <main>
-        <h1>Welcome to my next page</h1>
-        <ul>
-          <li>it is li</li>
-        </ul>
-      </main>
-    )
-  }
-}
+const NextPageComponent = () => (
+  <main>
+    <h1>Welcome to my next page</h1>
+    <ul>
+      <li>it is li</li>
+    </ul>
+  </main>
+);
 
 export default NextPageComponent;

@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import StorageProvider from './storage-provider';
 
 const DRF_SSO_AUTH = 'DRF_SSO_AUTH';
