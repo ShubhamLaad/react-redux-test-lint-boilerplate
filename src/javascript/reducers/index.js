@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import contryReducer from "./contry-reducer";
+import contryReducer from './contry.reducer';
 
 const reducers = {
   contryReducer,

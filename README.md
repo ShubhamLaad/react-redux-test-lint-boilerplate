@@ -53,3 +53,5 @@ webpack.config.babel configures webpack. To start webpack in build mode use
     Redux is a predictable state container for JavaScript apps (https://redux.js.org/).
   ### Routing
     Use react-router-dom (https://www.npmjs.com/package/react-router-dom).
+  ### ESLint
+    The pluggable linting utility for JavaScript and JSX, uses airbnb style (https://eslint.org/).

@@ -1,3 +1,5 @@
+import _ from 'lodash';
+
 export default class CookieStorage {
   static get(key) {
     if (!key || !_.isString(key)) {
