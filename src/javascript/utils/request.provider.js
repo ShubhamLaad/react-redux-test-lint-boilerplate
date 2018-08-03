@@ -1,5 +1,6 @@
-import SessionProvider from './session-provider';
 import axios from 'axios';
+import _ from 'lodash';
+import SessionProvider from './session.provider';
 
 function request(method, url, data) {
   const authToken = SessionProvider.getAuthToken();

@@ -16,17 +16,12 @@ const AppRoutes = () => (
             <Route
               exact
               path="/"
-              name='dashboard'
+              name="dashboard"
               component={DashboardContainer}
             />
             <Route
-              path='/dashboard'
-              name='dashboard'
-              component={DashboardContainer}
-            />
-            <Route
-              path='/next-page'
-              name='next-page'
+              path="/next-page"
+              name="next-page"
               component={NextPageComponent}
             />
             <Route

@@ -1,0 +1,34 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "jsx-a11y/anchor-is-valid": [
+            "error",
+            {
+                "components": [
+                    "a"
+                ],
+                "specialLink": [
+                    "hrefLeft",
+                    "hrefRight"
+                ],
+                "aspects": [
+                    "noHref",
+                    "invalidHref",
+                    "preferButton"
+                ]
+            }
+        ],
+        "import/no-extraneous-dependencies": ["warning"]
+    },
+    "globals": {
+        "config": true,
+        "describe": true,
+        "expect": true,
+        "beforeEach": true,
+        "afterEach": true,
+        "document": true,
+        "window": true,
+        "beforeAll": true,
+        "jest": true
+    }
+}

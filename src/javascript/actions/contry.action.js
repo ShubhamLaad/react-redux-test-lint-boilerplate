@@ -1,4 +1,4 @@
-import RequestProvider from "../utils/request-provider";
+import RequestProvider from '../utils/request.provider';
 
 export default class ContryActions {
   static setContries(contries) {
