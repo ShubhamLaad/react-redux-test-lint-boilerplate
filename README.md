@@ -44,6 +44,15 @@ webpack.config.babel configures webpack. To start webpack in build mode use
 
   `$ npm run build`
 
+## Test
+use ESlint and jest for test cases
+
+  `$ npm run test`
+
+## See test coverage
+  ```npm run jest-coverage``` - Open `coverage/lcov-report/index.html` file
+
+
 ## Things Use
   ### React
     A JavaScript library for building user interfaces (https://reactjs.org/).
@@ -55,3 +64,5 @@ webpack.config.babel configures webpack. To start webpack in build mode use
     Use react-router-dom (https://www.npmjs.com/package/react-router-dom).
   ### ESLint
     The pluggable linting utility for JavaScript and JSX, uses airbnb style (https://eslint.org/).
+  ### Enzyme
+    Enzyme is a JavaScript Testing utility for React that makes it easier to assert, manipulate, and traverse your React Components' output.

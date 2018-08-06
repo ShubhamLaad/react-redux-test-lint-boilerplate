@@ -1,4 +1,5 @@
 import _ from 'lodash';
+import ActionConst from '../constants/action.const';
 
 const initialState = {
   contries: [],
@@ -6,7 +7,7 @@ const initialState = {
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    case 'SET_CONTRIES':
+    case ActionConst.SET_CONTRIES:
       return _.assign({}, state, { contries: action.payload });
     default:
       return state;
