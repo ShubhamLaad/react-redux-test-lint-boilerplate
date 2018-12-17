@@ -29,6 +29,7 @@
         "document": true,
         "window": true,
         "beforeAll": true,
-        "jest": true
+        "jest": true,
+        "it": true
     }
 }
